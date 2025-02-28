@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="sw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jumba la Mfalme - Makumbusho ya Rwanda</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    header {
+      background-color: #0056b3; /* Header color */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    img {
+      max-width: 50%; /* Medium-sized images */
+      height: auto;
+      margin: 20px 0;
+      border-radius: 10px; /* Rounded corners */
+    }
+
+    p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+
+    .language-select .button {
+      background-color: #28a745; /* Green for language selection */
+    }
+
+    .language-select .button:hover {
+      background-color: #218838;
+    }
+
+    .cancel-button {
+      background-color: #dc3545; /* Red for cancel button */
+    }
+
+    .cancel-button:hover {
+      background-color: #c82333;
+    }
+
+    audio {
+      width: 100%;
+      margin: 20px 0;
+    }
+    }
+    </style>
+  </head>
+  <body>
+  
+  <header>
+    <h1>Jumba la Mfalme - Makumbusho ya Rwanda</h1><a href="index.html" class="button">Anza Tena</a>
+    <a href="index.html">Rudi Nyumbani</a>
+  </header>
+    <!-- Content 1: Entrance -->
+    <div class="container" id="content1">
+      <h1>1. Mlango wa Kuingilia</h1>
+      <img src="images/entrance.jpg" alt="Mlango wa Kuingilia" />
+      <p>
+        Unaposimama mbele ya mlango huu wa kuvutia, unakanyaga mahali pa umuhimu
+        mkubwa wa kihistoria na kitamaduni. Nyumba za jadi za nyasi unazoona ni
+        nakala halisi ya jumba la mfalme Yuhi V Musinga. Miundo hii inaonyesha
+        utukufu na mila za ufalme wa zamani wa Rwanda.
+      </p>
+	   <audio controls>
+      <source src="audiof/audio1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content2" class="button">Endelea</a>
+	
+    </div>
+
+    <!-- Content 2: Public Waiting Area -->
+    <div class="container" id="content2" style="display: none">
+      <h1>2. Eneo la Kusubiri</h1>
+      <img src="images/symbolic.jpeg" alt="Eneo la Kusubiri" />
+      <p>
+        Eneo hili lilikuwa mahali pa kukutania kwa watu wote. Hapa, wageni
+        walisubiri kwa subira kabla ya kuingia ndani ya jumba la mfalme.
+        Lilikuwa mahali pa mazungumzo, simulizi, na maandalizi kabla ya kuingia
+        kwenye viwanja vya kifalme.
+      </p>
+	    <audio controls>
+      <source src="audiof/audio2.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content1" class="button">Rudi Nyuma</a>
+      <a href="#content3" class="button">Endelea</a>
+    </div>
+
+    <div class="container content" id="content3" style="display: none">
+      <h1>3. Lango la Kifalme na Walinzi</h1>
+      <img src="images/entrance.jpg" alt="Lango la Kifalme na Walinzi" />
+      <p>
+        Walinzi wawili waliovaa silaha walikuwa wamesimama kwenye lango la
+        kasri, wakishikilia mikuki iliyounganishwa kama kizuizi cha kihistoria.
+        Wajibu wao ulikuwa kuhakikisha kuwa ni wale tu waliokuwa na ruhusa ndio
+        wangeweza kuingia, wakidumisha utaratibu na usalama. Itifaki hii kali
+        ilikuwa ni kielelezo cha umuhimu wa kasri kama taasisi ya kidini na
+        kisiasa.
+      </p>
+	    <audio controls>
+      <source src="audiof/audio3.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content2" class="button">Iliyotangulia</a>
+      <a href="#content4" class="button">Inayofuata</a>
+    </div>
+
+    <!-- Add all other content sections similarly -->
+    <div class="container content" id="content4" style="display: none">
+      <h1>4. Miti Takatifu ya Lango la Kuingilia</h1>
+      <img src="images/sacred.jpeg" alt="Miti Takatifu" />
+      <p>
+        Kwenye kila upande wa lango la kuingia, utagundua miti miwili, kila moja
+        ikiwa na maana ya kina katika tamaduni na roho:
+      </p>
+      <ul>
+        <li>
+          <strong>Mti wa Ficus (Umuvumu) – Upande wa Kulia:</strong> Mti huu
+          ulikuwa na nafasi muhimu katika tamaduni za Rwanda, hasa katika
+          desturi kama kubandwa, ambayo ni shughuli ya kiroho ya uhusiano na
+          mwongozo wa mababu.
+        </li>
+        <li>
+          <strong>Mti wa Erythrina (Umuko) – Upande wa Kushoto:</strong> Mti huu
+          unaheshimika sana katika imani za kiroho za Rwanda, na unasimamia
+          ulinzi na hekima.
+        </li>
+      </ul>
+	    <audio controls>
+      <source src="audiof/audio4.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content3" class="button">Iliyotangulia</a>
+      <a href="#content5" class="button">Inayofuata</a>
+    </div>
+
+    <!-- Ongeza sehemu nyingine za maudhui kama inavyohitajika -->
+
+    <div class="container content" id="content5" style="display: none">
+      <h1>5. Hifadhi ya Kifalme – Moyo wa Kasri la Mfalme</h1>
+      <img src="images/symbolic.jpeg" alt="Hifadhi ya Kifalme" />
+      <p>
+        Unapoingia katika hifadhi ya kifalme, unavuka sehemu muhimu kwa maisha
+        na utawala wa ufalme. Uwanja huu haukuwa tu ni makazi ya mfalme, bali
+        pia ni mahali pa kidiplomasia, haki, na tamaduni.
+      </p>
+	    <audio controls>
+      <source src="audiof/audio1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content4" class="button">Iliyotangulia</a>
+      <a href="#content6" class="button">Inayofuata</a>
+    </div>
+
+    <div class="container content" id="content6" style="display: none">
+      <h1>6. Kambere – Nyumba Kuu ya Nyasi</h1>
+      <img src="images/symbolic.jpeg" alt="Nyumba ya Kambere" />
+      <p>
+        Katikati ya uwanja, inasimama Kambere, jengo lenye umuhimu mkubwa katika
+        kasri. Nyumba hii kubwa ya nyasi ilitumika kama makazi ya Mfalme na
+        Malkia, na pia kama eneo la kupokea wageni mashuhuri. Ndani ya kuta
+        zake, maamuzi muhimu yalifanywa, ushirikiano ulianzishwa, na sherehe za
+        kifalme zilifanyika.
+      </p>
+	    <audio controls>
+      <source src="audiof/audio6.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content5" class="button">Iliyotangulia</a>
+      <a href="#content7" class="button">Inayofuata</a>
+    </div>
+
+    <div class="container content" id="content7" style="display: none">
+      <h1>7. Msumeno wa Sumu wa Paa</h1>
+      <img src="images/roof.jpeg" alt="Msumeno wa Paa" />
+      <p>
+        Paa la Kambere limepambwa na misumeno mitatu tofauti, kila moja ikiwa na
+        umuhimu wa kina wa kitamaduni:
+      </p>
+      <ul>
+        <li>
+          <strong>Agasongero:</strong> Msumeno kuu katikati, unaotambulisha
+          mamlaka na nguvu kuu za mfalme.
+        </li>
+        <li>
+          <strong>Amashyoro:</strong> Misumeno miwili midogo iliyowekwa juu na
+          karibu na lango, ikionyesha ulinzi na heshima ya kifalme.
+        </li>
+      </ul>
+	    <audio controls>
+      <source src="audiof/audio7.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content6" class="button">Iliyotangulia</a>
+      <a href="#content8" class="button">Inayofuata</a>
+    </div>
+
+    <div class="container content" id="content8" style="display: none">
+      <h1>8. Kizingiti Kitakatifu Cheupe</h1>
+      <img src="images/sittingroom.jpeg" alt="Kizingiti Kitakatifu Cheupe" />
+      <p>
+        Kwenye lango la Kambere kuna kizingiti cheupe kilichozungukwa, ambacho
+        ni sehemu takatifu ambayo haikuruhusiwa kukanyagwa au kusimamiwa juu
+        yake. Hii ilimaanisha heshima kwa makazi ya kifalme na iliweka utakatifu
+        wa kiroho wa eneo hilo.
+      </p>
+	    <audio controls>
+      <source src="audiof/audio8.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content7" class="button">Iliyotangulia</a>
+      <a href="#content9" class="button">Inayofuata</a>
+    </div>
+
+    <div class="container content" id="content9" style="display: none">
+      <h1>9. Njia za Kifalme – Lango la Kuingia na Kutoka</h1>
+      <img src="images/entrance.jpg" alt="Njia za Kifalme" />
+      <p>Nyumba hii ilikuwa na milango miwili rasmi:</p>
+      <ul>
+        <li>
+          Upande wa kushoto ulikuwa lango la kuingilia kwa wageni waliotaka
+          kuonana na mfalme.
+        </li>
+        <li>
+          Upande wa kulia ulikuwa mlango wa kutokea, kuhakikisha kuwa utaratibu
+          na desturi zinahifadhiwa.
+        </li>
+      </ul>
+	    <audio controls>
+      <source src="audiof/audio9.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content8" class="button">Iliyotangulia</a>
+      <a href="#content10" class="button">Inayofuata</a>
+    </div>
+
+    <div class="container content" id="content10" style="display: none">
+      <h1>10. Chumba cha Kuketi – Sehemu ya Kifalme ya Ukirimu</h1>
+      <img src="images/waiting_area.jpg" alt="Chumba cha Kuketi" />
+      <p>
+        Chumba cha kuketi kilikuwa moyo wa ukarimu wa kifalme, ambapo mfalme
+        alipokea wageni wake muhimu zaidi. Eneo hili la kifahari lilibuniwa kwa
+        umakini ili kuhifadhi mila, kuwezesha mazungumzo, na kuonyesha hadhi ya
+        kifalme.
+      </p>
+	    <audio controls>
+      <source src="audiof/audio10.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content9" class="button">Iliyotangulia</a>
+      <a href="#content11" class="button">Inayofuata</a>
+    </div>
+
+    <div class="container content" id="content11" style="display: none">
+      <h1>11. Moto Mtakatifu – Alama ya Faraja na Usafi</h1>
+      <img src="images/waiting_area.jpg" alt="Moto Mtakatifu" />
+      <p>
+        Katikati ya chumba cha kuketi kulikuwa na eneo la mviringo lililowekewa
+        mawe, ambapo moto ulikuwa ukiwaka kila wakati. Moto huu ulikuwa na
+        madhumuni kadhaa:
+      </p>
+      <ul>
+        <li>
+          <strong>Mwangaza:</strong> Ulitoa nuru, kuhakikisha kuwa chumba
+          kilikuwa kinayoonekana nyakati zote.
+        </li>
+        <li>
+          <strong>Ulinzi:</strong> Moshi wake ulisaidia kufukuza mbu,
+          kuhakikisha mazingira mazuri.
+        </li>
+        <li>
+          <strong>Harufu Nzuri:</strong> Ulidumisha harufu nzuri ndani ya
+          nyumba, kusafisha hewa.
+        </li>
+        <li>
+          <strong>Joto:</strong> Ulidhibiti joto, kuweka kasri joto hasa katika
+          vipindi vya baridi.
+        </li>
+      </ul>
+	    <audio controls>
+      <source src="audiof/audio11.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content10" class="button">Iliyotangulia</a>
+      <a href="#content12" class="button">Inayofuata</a>
+    </div>
+
+    <div class="container content" id="content12" style="display: none">
+      <h1>12. Chumba cha Kulala cha Mfalme – Sehemu ya Heshima na Faragha</h1>
+      <img src="images/kingbeds.jpeg" alt="Chumba cha Mfalme" />
+      <p>
+        Lango la kuingia chumbani kwa mfalme lilikuwa limewekwa alama na nguzo
+        mbili, kila moja ikiwa na silaha za kujilinda za mfalme—kama kumbukumbu
+        ya jukumu lake kama kiongozi na mlinzi wa ufalme.
+      </p>
+      <p>
+        Ndani, chumba cha kulala kilikuwa na mpangilio wa kipekee kulingana na
+        maadili ya kitamaduni ya Rwanda:
+      </p>
+      <ul>
+        <li>
+          <strong>Milango Tofauti kwa Mfalme na Malkia:</strong> Mfalme aliingia
+          moja kwa moja kutoka chumba cha kuketi, huku malkia akiingia kupitia
+          mlango tofauti uliounganishwa na chumba cha wanawake cha kuketi.
+        </li>
+      </ul>
+	  
+	    <audio controls>
+      <source src="audiof/audio12.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+	  
+      <a href="#content11" class="button">Iliyotangulia</a>
+      <a href="#content13" class="button">Inayofuata</a>
+    </div>
+
+    <div class="container content" id="content13" style="display: none">
+      <h1>13. Mavazi ya Kifalme na Mila za Chumba cha Kulala</h1>
+      <img src="images/kingbeds.jpeg" alt="Mavazi ya Kifalme" />
+      <p>
+        Uhifadhi wa vitu katika chumba cha kulala cha mfalme ulikuwa wa maana na
+        wenye ishara:
+      </p>
+      <ul>
+        <li>
+          Vikapu vilitumika kama kabati, vikihifadhi kwa mpangilio mavazi ya
+          kifalme ya mfalme na malkia.
+        </li>
+        <li>
+          Mabuyu yalihifadhi pombe maalum ya chumbani, kinywaji cha kifalme
+          kilichotengwa kwa nyakati za faragha.
+        </li>
+      </ul>
+	    <audio controls>
+      <source src="audiof/audio13.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content12" class="button">Iliyotangulia</a>
+      <a href="#content14" class="button">Inayofuata</a>
+    </div>
+
+    <div class="container content" id="content14" style="display: none">
+      <h1>14. Uwanja wa Nyuma – Taswira ya Mila za Kifalme</h1>
+      <img src="images/backyards.jpeg" alt="Uwanja wa Nyuma" />
+      <p>
+        Uwanja wa nyuma wa kasri una vibanda viwili vya kitamaduni vyenye nyasi,
+        vikionyesha zaidi ya vibanda 16 ambavyo vilizunguka kasri la zamani la
+        Mfalme Yuhi V Musinga. Miundo hii haikuwa tu kwa matumizi ya kila siku
+        bali pia ilikuwa na maana kubwa ya kitamaduni, ikionyesha mpangilio na
+        desturi za kifalme za Rwanda.
+      </p>
+	    <audio controls>
+      <source src="audiof/audio14.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content13" class="button">Iliyotangulia</a>
+      <a href="#content15" class="button">Inayofuata</a>
+    </div>
+
+    <div class="container content" id="content15" style="display: none">
+      <h1>15. Ng’ombe wa Inyambo – Mifugo ya Kifahari ya Kifalme</h1>
+      <img src="images/inyambo.jpeg" alt="Ng'ombe wa Inyambo" />
+      <p>
+        Ng’ombe wa Inyambo ni ishara ya kifahari ya urithi wa kifalme wa Rwanda,
+        wakihusiana kwa undani na historia, utamaduni, na mila za kifalme.
+        Ng’ombe hawa wenye pembe ndefu, wanaojulikana kwa uzuri na umaridadi
+        wao, walifugwa mahsusi kwa ajili ya mfalme na walikuwa na nafasi kuu
+        katika sherehe na matambiko muhimu.
+      </p>
+	    <audio controls>
+      <source src="audiof/audio15.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <a href="#content14" class="button">Iliyotangulia</a>
+      <a href="#thank-you" class="button">Inayofuata</a>
+    </div>
+
+    <!-- Thank You Section -->
+    <div class="container" id="thank-you" style="display: none">
+      <h1>Asante kwa Kutembelea!</h1>
+      <img src="images/thankyou.jpg" alt="Asante" />
+      <p>
+        Tunatumai umefurahia ziara yako ya kujiongoza katika Jumba la Mfalme la
+        Makumbusho ya Rwanda. Ziara yako inasaidia kuhifadhi na kusherehekea
+        utamaduni mzuri wa Rwanda. Furahia tena au shiriki uzoefu wako na
+        wengine!
+      </p>
+      <a href="index.html" class="button">Anza Tena</a>
+    </div>
+
+    <script>
+      // JavaScript to handle navigation
+      document.querySelectorAll(".button").forEach((button) => {
+        button.addEventListener("click", (e) => {
+          const targetId = e.target.getAttribute("href").substring(1);
+          document.querySelectorAll(".container").forEach((content) => {
+            content.style.display = "none";
+          });
+          document.getElementById(targetId).style.display = "block";
+        });
+      });
+    </script>
+  </body>
+</html>
